@@ -6,6 +6,11 @@
 *
 {
   font-family: 'Nunito', 'Big Shoulders Stencil Display', 'Alfa Slab One', sans-serif;
+  
+}
+
+input{
+  padding-left: 0.75rem;
 }
 
 .hero-main
@@ -405,4 +410,177 @@ button.more-region:hover
 ::-webkit-scrollbar
 {
   width: 0;
+}
+
+/* navbar */
+.mainNav{
+  width: 100%;
+  height: 4rem;
+  background-color: #F7C913;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.heading{
+  font-size:54px;
+  font-weight:800;
+
+}
+.right{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* navbar Ends */
+
+
+/* Trip Page Starts */
+.mainTrip{
+  background-color: #f9d442;
+  height: calc(100vh - 4rem);
+  width:100% ;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.queryWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.queryTrip{
+  min-width:40rem;
+  height:15rem;
+  /* background: #F2F2CF; */
+
+}
+
+
+.btn{
+  width: max-content;
+  background: #000;
+  color: #fff;
+  padding: .5rem;
+  border-radius: 2rem;
+}
+.placeInput>input{
+  width: 90%;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: none;
+  border: 2px solid #000;
+}
+
+.tripP{
+  font-size:0.75rem ;
+  
+}
+/* 
+input{
+  border: none;
+  width: ;
+} */
+
+.dayInput>input{
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: none;
+  border: 2px solid #000;
+}
+.budgetInput>input{
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: none;
+  border: 2px solid #000;
+}
+
+.queryBudget{
+  width: 100%;
+}
+.responseTrip{
+  width:70% ;
+ /* background-color: #edb8b8; */
+ height: 18rem;
+}
+
+.responceWrapper{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.resText{
+  width: 100%;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+/* Trip Page ends */
+
+/* SignIn Page Starts */
+.mainSign{
+  display: flex;
+
+}
+
+.contentWrapper{
+  width: 100%;
+  padding: 2rem 5rem;
+}
+.contentSign{
+flex-grow:1;
+background-color: #f9d442;
+
+}
+
+.formSign{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.navSign{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  flex-direction: row-reverse;
+  height: 4rem;
+
+}
+.imgSign{
+  height: 100vh;
+  width: auto;
+}
+
+.inputSign{
+  height: 3rem;
+  width: 20rem;
+  border-radius: 0.75rem;
+  border: 2px solid #000;
+  background:none;
+}
+.large{
+  width: 41rem;
+}
+.btnSign{
+  width:41rem;
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.5rem; 
+}
+
+.nameSign{
+  display: flex;
+  gap: 1rem;
+}
+
+.orSign{
+  padding: 2rem 0;
 }

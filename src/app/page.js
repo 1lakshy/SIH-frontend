@@ -69,7 +69,7 @@ function Home() {
               Weather Updates
             </Link>
 
-            <Link href='/Sign In'>
+            <Link href='/SignIn'>
               <button className='signin'>
                 Sign In
               </button>
